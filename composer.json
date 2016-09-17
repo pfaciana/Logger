@@ -1,0 +1,23 @@
+{
+	"name": "pfaciana/Logger",
+	"description": "Logger",
+	"version": "1.0.0",
+	"homepage": "https://github.com/pfaciana/Logger",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Phil Faciana",
+			"email": "phil@columbuswebtech.com"
+		}
+	],
+	"autoload": {
+		"files": [
+			"index.php"
+		],
+		"classmap": [],
+		"psr-4": {}
+	},
+	"require": {
+		"monolog/monolog": "~1"
+	}
+}
