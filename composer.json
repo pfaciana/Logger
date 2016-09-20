@@ -1,7 +1,7 @@
 {
 	"name": "pfaciana/Logger",
 	"description": "Logger",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"homepage": "https://github.com/pfaciana/Logger",
 	"license": "MIT",
 	"authors": [
@@ -12,10 +12,11 @@
 	],
 	"autoload": {
 		"files": [
-			"index.php"
+			"src/helpers.php"
 		],
-		"classmap": [],
-		"psr-4": {}
+		"psr-4": {
+			"RWD\\": "src/"
+		}
 	},
 	"require": {
 		"monolog/monolog": "~1"
